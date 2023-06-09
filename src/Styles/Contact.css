@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+  @font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Variable.ttf");
+  }
+
+  
+
+  @font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Semibold.otf");
+  }
+
+  
+
+.contact-top{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    width: 90%;
+    margin-top: 40px;
+    padding: 100px 100px;
+    line-height: 3em;
+    margin-left: 60px;
+    background-color: #002099;
+}
+
+.contact-name label p{
+    color: #00070F;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.08px;
+}
+
+
+.Jah p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.Rudra label p{
+    color: #00070F;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.08px;
+}
+
+.sisi label p{
+    color: #00070F;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.08px;
+}
+
+.contact-us h1{
+    color: #00070F;
+    font-family: 'Mulish', sans-serif;
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+.contact h3{
+    color: #ffffff;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37.65px;
+}
+
+.contact h1{
+    color: #ffffff;
+    font-family: 'Clash Display Variable';
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 79.95px;
+}
+
+.contact p{
+    width: 70%;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-left: 4px;
+    padding-top: 20px;
+}
+
+.contact-text{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+.contact-us{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.Miss p{
+    width: 100%;
+    color: #00070F;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 5px;
+    line-height: 32px;
+    padding-top: 10px;
+}
+
+.location{
+    margin-left: 35px;
+    padding: 30px 30px;
+    line-height: 2.5em;
+}
+
+.location h4{
+    color: #00070F;
+    margin-left: 33px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.BMW p{
+    width: 50%;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #00070F;
+}
+
+.location{
+    border-left: 4px solid #002099;
+    margin-left: 100px;
+}
+
+.contact-form{
+    width: 500px;
+    min-height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 100px;
+    height: 400px;
+    margin-top: 150px;
+}
+
+.contact-name{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.contact-name-1{
+    width: 100%;
+    
+    
+}
+ 
+.contact-name-2{
+    width: 100%;
+}
+
+
+
+.contact-label input, textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    border-bottom: 1px solid;
+    width: 95%;
+    
+}
+
+
+.contact-button{
+    background-color: #1178FF;
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.08px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.sub-bottom{
+    background-color: #00070F;
+    margin: 50px 100px;
+    width: 82%;
+    height: 250px;
+}
+
+.sub-bottom h3{
+    color: #FFFFFF;
+    margin-left: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding-top: 30px;
+    line-height: 42px;
+}
+
+.Touch p{
+    width: 73%;
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+    margin-left: 30px;
+    line-height: 32px;
+}
+
+
+.footer{
+    height: 550px;
+    margin-top: 100px;
+    color: #ffffff;
+    background-color: #00070F;
+}
+
+.david{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.sub-david{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sub-david p{
+    width: 60%;
+    font-family:'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 300px;
+    line-height: 25.1px
+}
+
+.activate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 30px 500px;
+    width: 20%;
+}
+
+.render h1{
+    text-align: center;
+    align-items: center;
+}
+
+.render p{
+    color:#FFFFFF;
+    font-family:'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.08px;
+    align-items: center;
+    text-align: center;
+}
+
+
+.linked, .twitter, .face, .insta{
+    border: 2px solid;
+    border-radius: 500px;
+    padding: 5px;
+}
+
+.dusted{
+    background-color: #002099;
+    height: 80px;
+    color: #ffff;
+    padding: 30px 50px;
+}
+
+
+@media screen  and (max-width: 500px) {
+    .contact-top{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        background-color: purple;
+    }
+    
+    .contact{
+        width: 100%;
+        color: #ffff;
+        padding: 50px 50px;
+        line-height: 3em;
+        background-color: #002099;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .Jah p{
+        
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    
+    .contact p{
+        width: 110%;
+        line-height: normal;
+        padding-top: 20px;
+    }
+
+    
+    .contact-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #00070F;
+    }
+    
+    .contact-us{
+        margin-top: 40px;
+        margin-left: 18px;
+    }
+    
+    .contact-us p{
+        padding-top: 10px;
+        width: 100%;
+    }
+    
+    .location{
+        padding: 30px 30px;
+        line-height: 2.5em;
+        color: #212529;
+    }
+    
+    .location p{
+        width: 60%;
+        line-height: normal;
+    }
+    
+    .location{
+        border-left: 4px solid #002099;
+        margin-left: 20px;
+    }
+    
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .label{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contact-name{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .contact-name-1{
+        width: 100%;
+    }
+    
+    .contact-name-2{
+        width: 100%;
+    }
+    
+    .contact-label input, textarea{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid;
+        width: 100%;
+    }
+
+    .contact-button{
+        background-color: #1178FF;
+        color: #ffffff;
+        padding: 6px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.08px;
+        outline: none;
+        border: none;
+        width: 150px;
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+
+    .contact-bottom{
+        height: 250px;
+        width: 100%;
+        background-color: #00070F;
+       
+    }
+    
+    .Touch p{
+        width: 100%;
+        padding-top: 0px;
+        color: #FFFFFF;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
+        position: relative;
+        right: 20%;
+        font-size: 15px;
+    }
+
+    .sub-bottom h3{
+        color: #FFFFFF;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        padding-top: 30px;
+        position: relative;
+        right: 20%;
+    }
+    
+    .contact-form{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 450px;
+        margin-top: 100px;
+        margin-left: 100px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+        background-color: #FFFFFF;
+    }
+
+    .contact-label input, textarea{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 1px solid;
+        margin-right: 220px;
+        width: 100%;
+    }
+
+    .contact-text{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+    }
+
+    .footer{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 250px;
+        color: #fff;
+        background-color: #00070F;
+    }
+
+    .render p{
+        color:#FFFFFF;
+        font-family:'Mulish', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.08px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .david{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    
+
+    .sub-david{
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .sub-david p{
+        width: 100%;
+        font-size: 15px;
+        margin: auto;
+        line-height: 1.5em;
+    }
+    
+    .activate{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 500px;
+        margin: auto;
+        padding-top: 20px;
+        width: 70%;
+    }
+
+    .linked, .twitter, .face, .insta{
+        border: 2px solid;
+        border-radius: 500px;
+        padding: 5px;
+    }
+    
+    .dusted{
+        background-color: #002099;
+        height: 100px;
+        color: #ffff;
+        padding: 30px 50px;
+        width: 100%;
+        font-size: 12px;
+    }
+    
+}

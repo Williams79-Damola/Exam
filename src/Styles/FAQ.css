@@ -1,0 +1,601 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Variable.ttf");
+  }
+
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Semibold.otf");
+  }
+
+.FAQ{
+    width: 89%;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 50px;
+    background-color: #002099;
+}
+
+
+
+.sub-FAQ{
+    display: inline-block;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+
+.sub-FAQ, h2{
+    color: #ffffff;
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+    line-height: 36.9px;
+    margin-top: 40px;
+}
+
+.sub-FAQ h3{
+    color: #ffffff;
+    font-family: 'Clash Display Variable';
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 79.95px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.peter p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    width: 60%;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left:50px;
+}
+
+
+.faq-two-grand{
+    margin-top: 10px;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-two-parent{
+    width: 85%;
+}
+
+.faq-two{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-two-sub{
+    width: 48%;
+    height: 100px;
+}
+
+.f-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    margin-top: 80px;
+}
+
+.f-ones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    margin-top: 80px;
+}
+.f-one1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 18px;
+    margin-top: 80px;
+}
+
+.f-one-sub{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: Mulish;
+    visibility: visible;
+}
+.G-1{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1C0A00;
+    margin-left: 60px;
+}
+
+.boy{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.book{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.text button{
+    background-color: #1178FF;
+    padding: 10px 25px 10px 10px;
+    border-radius: 4px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.08px;
+    outline: none;
+    border: none;
+    width: 220px;
+    position: relative;
+    right: 18px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.text button img{
+    margin-top: 10px;
+}
+
+.book, img{ 
+    margin-left: 50px;
+}
+
+.text h2{
+    font-family: 'Mulish', sans-serif;
+    color: #1C0A00;
+    font-weight: 700;
+    position: relative;
+    right: 20px;
+    font-size: 25px;
+    line-height: 31.38px;
+}
+
+.text{
+    padding: 10px;
+    height: 400px;
+    width: 90%;
+    margin-left: 40px;
+}
+
+.line-four{
+    width: 4%;
+    position: relative;
+    right: 228px;
+    top: 10px;
+    border-bottom: 1px solid #5C5C5C;
+    margin-top: 40px;
+
+}
+
+.text img{
+    margin-top: 40px;
+}
+
+.text p{
+    color: #1C0A00;
+    position: relative;
+    right: 5px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 32px;
+}
+
+.book-two{
+    display: flex;
+    justify-content: start;
+}
+
+
+.united{
+    height: 550px;
+    margin-top: 100px;
+    color: #fff;
+    background-color: #00070F;
+}
+
+.sub-united{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.mancity{
+    text-align: center;
+}
+
+.mancity p{
+    width: 60%;
+    font-family:'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 300px;
+    line-height: 25.1px
+}
+
+.party{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 30px 500px;
+    width: 20%;
+}
+
+.ask h1{
+    text-align: center;
+    align-items: center;
+}
+
+.ask p{
+    color:#FFFFFF;
+    font-family:'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.08px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.linked, .twitter, .face, .insta{
+    border: 2px solid;
+    border-radius: 500px;
+    padding: 5px;
+}
+
+.reload{
+    background-color: #002099;
+    height: 80px;
+    color: #ffff;
+    padding: 30px 50px;
+}
+
+@media screen and (max-width: 500px){
+
+    .FAQ{
+        width: 100%;
+        height: 510px;
+        margin-top: 0px;
+        margin-left: 0px;
+        background-color: #002099;
+    }
+    
+    .sub-FAQ{
+        display: inline-block;
+        justify-content: center;
+        margin-top: 50px;
+        
+    }
+    
+    
+    .sub-FAQ, h2{
+        width: 100%;
+        color: #ffffff;
+        font-family: 'Clash Display Variable';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36.9px;
+    }
+    
+    .sub-FAQ h3{
+        color: #FFFFFF;
+        font-family: 'Clash Display Variable';
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 79.95px;
+        
+    }
+    
+    .peter p{
+        width: 90%;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    
+    
+
+    .faq-two-grand{
+        margin-top: 10px;
+        width: 100%;
+        min-height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .faq-two-parent{
+        width: 100%;
+    }
+    
+    .faq-two{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .faq-two-sub{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .f-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+        height: 70px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    
+    .f-ones{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+        height: 90px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .f-one1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 30px;
+        height: 90px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 18px;
+        margin-top: 80px;
+    }
+    
+    .f-one-sub{
+        display: flex;
+        align-items: center;
+        height: 100px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-family: Mulish;
+        visibility: visible;
+    }
+    .G-1{
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #1C0A00;
+        margin-left: 40px;
+    }
+
+
+
+    .text button{
+        background-color: #1178FF;
+        padding: 10px 25px 10px 10px;
+        border-radius: 4px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.08px;
+        outline: none;
+        border: none;
+        width: 220px;
+        position: relative;
+        right: 40px;
+        color: #FFFFFF;
+        margin-top: 10px;
+    }
+    
+    .text button img{
+        margin-top: 10px;
+    }
+    
+    .book, img{ 
+        margin-left: 50px;
+    }
+    
+    .text h2{
+        font-family: 'Mulish', sans-serif;
+        color: #1C0A00;
+        font-weight: 700;
+        position: relative;
+        right: 20px;
+        font-size: 25px;
+        line-height: 31.38px;
+    }
+    
+    .text{
+        padding: 10px;
+        height: 400px;
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .boy{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .book{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    
+.book, img{ 
+    margin-left: 0px;
+}
+
+.text h2{
+    font-family: 'Mulish', sans-serif;
+    color: #1C0A00;
+    font-weight: 700;
+    position: relative;
+    right: 50px;
+    font-size: 25px;
+    line-height: 31.38px;
+}
+
+.text{
+    padding: 10px;
+    margin-top: 10px;
+    height: 330px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.text img{
+    margin-top: 30px;
+}
+
+.text p{
+    color: #1C0A00;
+    width: 100%;
+    position: relative;
+    right: 30px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+    
+    .book-two{
+        display: flex;
+        justify-content: start;
+    }
+    
+    .united{
+        height: 100px;
+        margin-top: 30px;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        color: #FFFFFF;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 30px;
+        background-color: #00070F;
+    }
+    
+    .sub-united{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+        width: 790px;
+    }
+    
+    .mancity{
+        text-align: center;
+        padding-top: 90px;
+    }
+    
+    .mancity p{
+        width: 100%;
+        font-family:'Mulish', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 25.1px
+    }
+
+
+    .line-four{
+        width: 10%;
+        position: relative;
+        right: 228px;
+        top: 10px;
+        border-bottom: 1px solid #5C5C5C;
+        margin-top: 40px;
+    
+    }
+    
+    .party{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 30px 500px;
+        padding-top: 20px;
+        width: 50%;
+    }
+    
+    .ask h1{
+        text-align: center;
+        align-items: center;
+    }
+    
+    .ask p{
+        color:#FFFFFF;
+        font-family:'Mulish', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.08px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    
+    .linked, .twitter, .face, .insta{
+        border: 2px solid;
+        border-radius: 500px;
+        padding: 5px;
+    }
+    
+    .reload{
+        background-color: #002099;
+        height: 80px;
+        color: #ffff;
+        padding: 30px 50px;
+        width: 100%;
+        font-size: 12px;
+    }
+
+}

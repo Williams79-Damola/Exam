@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+.sign-parent{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+}
+
+.sign{
+    width: 90%;
+    display: flex;
+}
+
+.sign-one{
+    width: 30%;
+}
+
+.sign-one h1{
+    width: 40%;
+    margin-left: 50px;
+    margin-top: 60px;
+    color: #00070F;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+}
+
+.log-one, label{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.08px;
+}
+
+.sign-two{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-sub-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 120vh;
+    width: 90%;
+}
+
+
+.sign-sub-two{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 50px;
+}
+
+.sign-two input{
+    height: 50px;
+    width: 95%;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.sign button{
+    border-radius: 4px;
+    height: 50px;
+    width: 75%;
+    margin-right: 30px;
+}
+
+.name, .password{
+    display: flex;
+    width: 80%;
+    margin-top: 15px;
+}
+
+.name input, .password input{
+    width: 90%;
+}
+
+.log-one{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.number{
+    display: flex;
+    width: 95%;
+    border:1px solid #e0e0e0;
+    height: 50px;
+}
+.select{
+    width: 12%;
+    padding: 8px;
+    border:1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+
+.pa{
+    width: 100%;
+    position: relative;
+    margin-right: 30px;
+}
+
+.Yes{
+    position: absolute;
+    top: 575px;
+    left: 690px;
+}
+
+.con{
+    width: 100%;
+    position: relative;
+}
+
+.lagos{
+    position: absolute;
+    top: 575px;
+    left: 930px;
+}
+
+@media screen and (max-width: 500px){
+    .sign-parent{
+        width: 100%;
+        min-height: 100vh;
+        display:flex;
+        justify-content: center;
+    }
+    
+    .sign{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .sign-one h1{
+        width: 100%;
+        margin-left: 5px;
+        color: #00070F;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 54px;
+    }
+    
+    .log-one, label{
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20.08px;
+    }
+    
+    .sign-one{
+        width: 100%;
+    }
+    
+    
+    .sign-two{
+        width: 100%;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sign-sub-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+        flex-direction: column;
+        height: 100vh;
+        width: 90%;
+    }
+    
+    .sign-sub-two{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sign-two input{
+        height: 50px;
+        width: 100%;
+        outline: none;
+        border: 1px solid grey;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+    
+    .sign button{
+        border-radius: 4px;
+        height: 40px;
+        width: 80%;
+    }
+    
+    .name, .password{
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+        width: 100%;
+    }
+    
+    .name input, .password input{
+        width: 100%;
+    }
+    
+    .log-one{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .number{
+        display: flex;
+        width: 100%;
+        border:1px solid #e0e0e0;
+        height: 50px;
+    }
+    .select{
+        width: 12%;
+        padding: 8px;
+        border:1px solid #e0e0e0;
+        border-radius: 4px;
+    }
+
+    .pa{
+        width: 50%;
+        position: relative;
+        margin-right: 30px;
+    }
+    
+    .Yes{
+        position: absolute;
+        top: 735px;
+        left: 360px;
+    }
+    
+    .con{
+        width: 50%;
+        position: relative;
+    }
+    
+    .lagos{
+        position: absolute;
+        top: 810px;
+        left: 360px;
+    }
+    .sign-sub-two{
+        width: 90%;
+        margin-top: 180px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sign button{
+        border-radius: 4px;
+        height: 50px;
+        margin-top: 30px;
+        width: 80%;
+        min-height: 8vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
