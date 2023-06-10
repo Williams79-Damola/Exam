@@ -3,7 +3,7 @@ import {Routes, Route} from "react-router-dom"
 import Home from "./Home";
 import Blog from "./Blog";
 import Contact from "./Contact";
-import FAQ from "./Faq";
+import FAQ from "./FAQ";
 import Navbar from "../Navbar/Navbar";
 
 const Special =() =>{
